@@ -9,24 +9,33 @@
     <!-- to make it visible on phone interface -->
     <meta name = "author" content="Emma" />
     <title>Emma de Cocker</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <!-- these are the different fonts -->
     <h1>Emma de Cocker</h1>
     <h2>Who am I?</h2>
     <!-- etc etc until 6 -->
-    <p> Hi, I’m Emma, a 24-year old <em> design engineer</em>. After graduating from Mechanical Engineering at <strong>Imperial College London</strong>, I pursued my studies in Design for Interaction to nurture my natural social abilities and sensitivity to my surroundings, and adopt a more human-centred approach when solving complex problems. Today, I make a priority to design meaningful interactions and enriching experiences to make a positive impact on users. </p>
-    <p> Throughout my education, I learnt an essential skill - the ability to reflect systematically on project learnings and, more generally, on myself as an individual and professional. However, I found that the written aspect of reflection did not resonate with me. I prefer doing things with my hands, crafting and creating, embroidering on t-shirts as gifts for my family and friends for instance. </p>    
-    <p>  
-        <a href="https://www.linkedin.com/in/emmadecocker/" >LinkedIn</a>
-        <!-- add a link to my LinkedIn by clicking on the word "LinkedIn" -->
-        <a href="mailto:decockeremma@gmail.com" >Email me</a>
-        <!-- add link to emailing me with "mailto" -->
-        <a href="./CV_EmmadeCocker_2023.pdf" target="_blank" >My resume</a>
-        <!-- add a link to sharing a pdf file by starting to type ./ and then the files in the folder (added in the Finder folder) should appear to choose from -->
-        <!-- target="_blank" makes sure the pdf opens on a new tab -->
-    </p>
-    <img src="./DSC08492.JPG" alt="Me and my first embroidery project" width="300"/>
-    <!-- load a picture -->
+
+    <div class="grid-container">
+        <div class="picture-column"><img src="./DSC08492.JPG" alt="Me and my first embroidery project" width="300"/></div>
+        <!-- load a picture and adjust the size by giving a value to either the width or height but not both -->
+    
+        <!-- div allows to divide sections of the code -->
+        <div class="information-column">
+            <p> Hi, I am Emma, a 24-year old <em> design engineer</em>. After graduating from Mechanical Engineering at <strong id="tudelft" class="university"> Imperial College London</strong>, I pursued my studies in Design for Interaction to nurture my natural social abilities and sensitivity to my surroundings, and adopt a more human-centred approach when solving complex problems. Today, I make a priority to design meaningful interactions and enriching experiences to make a positive impact on users. </p>
+            <p> Throughout my education, I learnt an essential skill - the ability to reflect systematically on project learnings and, more generally, on myself as an individual and professional. However, I found that the written aspect of reflection did not resonate with me. I prefer doing things with my hands, crafting and creating, embroidering on t-shirts as gifts for my family and friends for instance. </p>    
+    
+            <p>  
+                <a href="https://www.linkedin.com/in/emmadecocker/" >LinkedIn</a>
+                <!-- add a link to my LinkedIn by clicking on the word "LinkedIn" -->
+                <a href="mailto:decockeremma@gmail.com" >Email me</a>
+                <!-- add link to emailing me with "mailto" -->
+                <a href="./CV_EmmadeCocker_2023.pdf" target="_blank" >My resume</a>
+                <!-- add a link to sharing a pdf file by starting to type ./ and then the files in the folder (added in the Finder folder) should appear to choose from -->
+                <!-- target="_blank" makes sure the pdf opens on a new tab -->
+            </p>
+        </div>
+    </div>
 </body>
 </html>

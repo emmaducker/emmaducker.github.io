@@ -1,0 +1,62 @@
+/* this is the code to design the graphic style of the web page */
+
+/* IMPORT FONTS AT THE TOP */
+
+/* give parameters to the background colour, basic font, etc */
+body {
+    background-color: rgb(218, 165, 41);
+    color: white;
+    margin: 0 auto;
+    /* auto makes sure it's always centred */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3%;
+    max-width: 960px;
+}
+
+/* give parameters to the larger heading */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: burlywood;
+}
+
+.grid-container {
+    display: grid;
+    /* to design rows, columns, gutter size, etc */
+    grid-template-columns: auto auto; 
+    /* auto auto is for 2 columns */
+    padding: 10px;
+    align-items: center;
+}
+
+/* give parameters to images */
+img {
+    max-width: 100%;
+    border: 110px solid #f2f230;
+    border-style: groove;
+}
+
+/* give parameters to the bold text */
+strong {
+    font-weight: 100;
+}
+
+
+
+/* can create classes to give certain parameters to words (font, size, colour) */
+.university {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.picture-column {
+    background-color: pink;
+}
+
+.information-column {
+    color: blue;
+    text-align: center;
+    /* to align text to the centre like the heading */
+}
+
